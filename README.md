@@ -1,6 +1,3 @@
-#Some app
-By Brandon King
-
 ## Getting Started
 ```shell
 npm install
