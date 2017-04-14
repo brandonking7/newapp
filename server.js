@@ -3,6 +3,7 @@ const app = express();
 
 app.use(express.static(__dirname + '/public'));
 
- app.listen(4000, function() {
+ app.listen(process.env.PORT || 4000, function() {
    console.log('Server listeing to app on port 4000')
  });
+ 
