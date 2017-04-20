@@ -12,6 +12,14 @@ angular
     .state('home', {
       url: '/',
       template: '<home></home>'
+    })
+    .state('login', {
+      url: '/login',
+      template:'<login></login>'
+    })
+    .state('register', {
+      url: '/register',
+      template: '<register></register>'
     });
   $urlRouterProvider.otherwise('/');
   }
